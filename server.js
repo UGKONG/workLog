@@ -1,4 +1,4 @@
-// Node.js 서버 / Mac OS 17:36
+// Node.js 서버 / Window OS 17:42
 const express = require('express');
 const path = require('path');
 const app = express();
