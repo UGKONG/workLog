@@ -1,9 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import Styled from 'styled-components';
 import { Route, Switch } from 'react-router-dom';
 import { Home, WorkLog, UserList, Support, Setting } from './contents/';
+import { Context } from '../App';
 
 const Contents = ({ activeMenu }) => {
+
+  const _context = useContext(Context);
+
+  useEffect(() => console.log(_context));
+
   return (
     <Main>
       <Switch>
