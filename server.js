@@ -1,4 +1,4 @@
-// Node.js 서버 / Mac OS 
+// Node.js 서버 / Mac OS
 const express = require('express');
 const path = require('path');
 const app = express();
