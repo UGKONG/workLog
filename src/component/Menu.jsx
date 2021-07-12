@@ -72,6 +72,7 @@ const MenuLi = Styled.li`
     margin-right: 5px;
     color: #e1e2c7;
     text-align: center;
+    transform: translateY(1px);
   }
 
   a.active {

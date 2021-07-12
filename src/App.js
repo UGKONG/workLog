@@ -49,7 +49,6 @@ const Component = () => {
         }}
       >
         <title id="title">{programName}</title>
-        {/* modal자리 */}
         <SideMenu programName={programName} />
         <Contents />
       </Context.Provider>
